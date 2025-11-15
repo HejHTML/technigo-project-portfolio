@@ -4,6 +4,9 @@ export const Hero = () => {
 
             <h1>Emma Franzén</h1>
             <p>Frontend Developer based in Sweden</p>
+            <p className="hero-intro">
+                Hej, jag heter Emma och jag pluggar till webbutvecklare på fritiden. Just nu kodar jag den här sidan som ska bli min portfolio.
+            </p>
             <img
                 src="src/assets/emma.jpg"
                 alt="Profile"
@@ -11,8 +14,7 @@ export const Hero = () => {
             />
 
             <div className="hero-buttons">
-                <a href="#" className="btn-primary">Live demo</a>
-                <a href="#" className="btn-secondary">View code</a>
+
             </div>
         </section>
     );
