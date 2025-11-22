@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "News site",
-      "image": "src/assets/newssite.png",
+      "image": "newssite.png",
       "tags": [
         "HTML5",
         "CSS3"
