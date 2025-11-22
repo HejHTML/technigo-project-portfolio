@@ -90,6 +90,24 @@
       ],
       "netlify": "https://swinginintherain.netlify.app/",
       "github": "https://github.com/HejHTML/technigo-project-weather-app.git"
+    },
+    {
+      "name": "Games!",
+      "image": "games.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "APIs"
+      ],
+      "description": "A collection of small games I've created for fun and practice.",
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
+      ],
+      "netlify": "",
+      "github": ""
     }
   ]
 }
