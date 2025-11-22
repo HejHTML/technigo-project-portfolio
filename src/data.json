@@ -12,7 +12,7 @@
     },
     {
       "name": "Business site",
-      "image": "src/assets/business.png",
+      "image": "business.png",
       "tags": [
         "HTML5",
         "CSS3"
@@ -22,7 +22,7 @@
     },
     {
       "name": "Pizzabot",
-      "image": "src/assets/pizzabot.png",
+      "image": "pizzabot.png",
       "tags": [
         "HTML5",
         "CSS3",
@@ -33,7 +33,7 @@
     },
     {
       "name": "Library",
-      "image": "src/assets/library.png",
+      "image": "library.png",
       "tags": [
         "HTML5",
         "CSS3",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Weather app",
-      "image": "src/assets/weatherapp.png",
+      "image": "weatherapp.png",
       "tags": [
         "HTML5",
         "CSS3",
