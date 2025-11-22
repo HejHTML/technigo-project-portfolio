@@ -7,7 +7,9 @@
         "HTML5",
         "CSS3"
       ],
-      "description": "A responsive news website built with HTML and CSS, showcasing articles, images, and layout design for readability.",
+      "description": [
+        "A responsive news website built with HTML and CSS, showcasing articles, images, and layout design for readability."
+      ],
       "tools": [
         "VSCode",
         "GitHub",
@@ -23,7 +25,9 @@
         "HTML5",
         "CSS3"
       ],
-      "description": "A professional business site designed with HTML and CSS, focusing on clean layout, navigation, and responsive design.",
+      "description": [
+        "A professional business site designed with HTML and CSS, focusing on clean layout, navigation, and responsive design."
+      ],
       "tools": [
         "VSCode",
         "GitHub",
@@ -40,11 +44,8 @@
         "CSS3",
         "JavaScript"
       ],
-      "description": "An interactive pizza ordering bot built with JavaScript, allowing users to choose toppings, size, and view a summary.",
-      "tools": [
-        "VSCode",
-        "GitHub",
-        "Netlify"
+      "description": [
+        "An interactive pizza ordering bot built with JavaScript, allowing users to choose toppings, size, and view a summary."
       ],
       "tools": [
         "VSCode",
@@ -62,7 +63,9 @@
         "CSS3",
         "JavaScript"
       ],
-      "description": "A digital library project for managing books and authors, featuring search functionality, JavaScript interactivity, and responsive layout.",
+      "description": [
+        "Library project for managing books and authors, featuring search functionality, interactivity, and responsive layout."
+      ],
       "tools": [
         "VSCode",
         "GitHub",
@@ -100,13 +103,15 @@
         "JavaScript",
         "APIs"
       ],
-      "description": "A collection of small games I've created for fun and practice.",
+      "description": [
+        "A collection of small games I've created for fun and practice."
+      ],
       "tools": [
         "VSCode",
         "GitHub",
         "Netlify"
       ],
-      "netlify": "",
+      "netlify": "https://emmafranzen.netlify.app/spel",
       "github": ""
     }
   ]

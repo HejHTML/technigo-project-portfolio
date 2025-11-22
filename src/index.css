@@ -60,6 +60,18 @@ body {
   font-weight: bold;
 }
 
+.btn-live:hover {
+  background: #1a6247;
+  cursor: pointer;
+}
+
+.btn-code:hover {
+  background: #1a6247;
+  color: white;
+  cursor: pointer;
+  border-color: #1a6247;
+}
+
 /* SKILLS */
 .skills {
   padding: 20px;
