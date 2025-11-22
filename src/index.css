@@ -102,7 +102,10 @@ body {
   align-items: center;
   gap: 12px;
   padding: 20px;
-  width: 320px;
+  width: 100%;
+  /* ✔ Tar upp gridcellens plats */
+  max-width: 380px;
+  /* ✔ Valfritt, ser bättre ut */
   margin: 0 auto;
 }
 
@@ -194,6 +197,15 @@ body {
   flex: 0 0 70%;
 }
 
+.featured-card .project-image {
+  height: 300px;
+  /* välj höjd du gillar */
+  object-fit: cover;
+  /* beskär snyggt */
+  width: 100%;
+  border-radius: 12px;
+}
+
 /* PROJECT GRID */
 .projects .grid {
   display: grid;
@@ -205,11 +217,20 @@ body {
   .projects .grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .featured-card {
+    flex: 0 0 40%;
+  }
 }
 
 @media (min-width: 1024px) {
   .projects .grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .featured-card {
+    flex: 0 0 450px;
+    /* eller 350px om du vill större */
   }
 }
 
