@@ -2,57 +2,57 @@
   "projects": [
     {
       "name": "News site",
-      "image": "",
+      "image": "src/assets/newssite.png",
       "tags": [
         "HTML5",
         "CSS3"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://lucky-beijinho-e620c2.netlify.app/",
+      "github": "https://github.com/HejHTML/technigo-project-news-site.git"
     },
     {
       "name": "Business site",
-      "image": "",
+      "image": "src/assets/business.png",
       "tags": [
         "HTML5",
         "CSS3"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://halsosammakurs.netlify.app/",
+      "github": "https://github.com/HejHTML/technigo-project-business-site.git"
     },
     {
       "name": "Pizzabot",
-      "image": "",
+      "image": "src/assets/pizzabot.png",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://emmaspizzeria.netlify.app/",
+      "github": "https://github.com/HejHTML/technigo-project-pizzabot.git"
     },
     {
       "name": "Library",
-      "image": "",
+      "image": "src/assets/library.png",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://boktipset.netlify.app/",
+      "github": "https://github.com/HejHTML/technigo-project-library.git"
     },
     {
       "name": "Weather app",
-      "image": "",
+      "image": "src/assets/weatherapp.png",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript",
         "APIs"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://swinginintherain.netlify.app/",
+      "github": "https://github.com/HejHTML/technigo-project-weather-app.git"
     }
   ]
 }

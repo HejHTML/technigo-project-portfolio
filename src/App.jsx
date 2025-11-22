@@ -12,9 +12,9 @@ export const App = () => {
       <Hero />
       <Skills />
       <Divider />
-      {/* Visa de 4 första projekten som Featured */}
+      {/* 4 first projects */}
       <FeaturedProjects projects={data.projects.slice(0, 4)} />
-      {/* Visa alla projekt */}
+      {/* Show all projects*/}
       <ProjectsSection projects={data.projects} />
       <Contact />
     </main>

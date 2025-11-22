@@ -29,7 +29,6 @@ body {
   height: 350px;
   object-fit: cover;
   border-radius: 50%;
-  border: ;
 }
 
 .hero-buttons {
@@ -96,7 +95,7 @@ body {
   width: 80%;
 }
 
-/* Projektkortets container */
+/* CARD CONTAINER */
 .project-card {
   display: flex;
   flex-direction: column;
@@ -107,21 +106,21 @@ body {
   margin: 0 auto;
 }
 
-/* Bilden */
+/* IMAGE */
 .project-image {
   width: 100%;
   border-radius: 12px;
   object-fit: cover;
 }
 
-/* Titel */
+/* TITLE */
 .project-title {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
 }
 
-/* Tags */
+/* TAGS */
 .project-tags {
   display: flex;
   flex-wrap: wrap;
@@ -136,11 +135,11 @@ body {
   font-size: 12px;
 }
 
-/* KNAPPAR */
+/* BUTTONS */
 .project-buttons {
   display: flex;
   flex-direction: column;
-  /* kolumn */
+  /* COLUMN */
   width: 100%;
   gap: 10px;
 }
@@ -157,7 +156,6 @@ body {
 
 .btn-code {
   background: white;
-  color: ;
   border: 2px solid #47b88e;
   text-align: center;
   padding: 10px;
@@ -185,18 +183,15 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   scrollbar-width: none;
-  /* Firefox */
 }
 
 .featured-scroll::-webkit-scrollbar {
   display: none;
-  /* Chrome/Safari */
 }
 
 .featured-card {
   scroll-snap-align: start;
   flex: 0 0 70%;
-  /* ett kort + lite av nästa */
 }
 
 /* PROJECT GRID */
@@ -218,7 +213,6 @@ body {
   }
 }
 
-/* CONTACT */
 .contact {
   padding: 40px 20px;
   text-align: center;
