@@ -128,7 +128,7 @@ body {
   width: 100%;
   height: 300px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 4px;
 }
 
 /* TITLE */
@@ -229,11 +229,9 @@ body {
 
 .featured-card .project-image {
   height: 300px;
-  /* välj höjd du gillar */
   object-fit: cover;
-  /* beskär snyggt */
   width: 100%;
-  border-radius: 12px;
+  border-radius: 4px;
 }
 
 /* PROJECT GRID */
@@ -261,7 +259,6 @@ body {
 
   .featured-card {
     flex: 0 0 450px;
-    /* eller 350px om du vill större */
   }
 }
 
