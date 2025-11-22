@@ -251,10 +251,11 @@ body {
 @media (min-width: 700px) {
   .projects .grid {
     grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
   }
 
   .featured-card {
-    flex: 0 0 40%;
+    flex: 0 0 410px;
   }
 }
 
