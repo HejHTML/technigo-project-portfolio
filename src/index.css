@@ -106,9 +106,8 @@ body {
   border: none;
   border-top: 2px solid #47b88e;
   margin: 60px auto;
-  margin-bottom: 60px;
-  width: 80%;
-
+  margin-bottom: 50px;
+  width: 300px;
 }
 
 /* CARD CONTAINER */
@@ -121,6 +120,9 @@ body {
   width: 100%;
   max-width: 380px;
   margin: 0 auto;
+  min-height: 370px;
+  /* alla kort minst 370px höga */
+  box-sizing: border-box;
 }
 
 /* IMAGE */
@@ -139,13 +141,7 @@ body {
 }
 
 /* TAGS */
-.project-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: center;
-}
-
+.project-tags,
 .project-tools {
   display: flex;
   flex-wrap: wrap;
@@ -156,6 +152,8 @@ body {
 .project-description {
   text-align: center;
   line-height: 1.5;
+  flex-grow: 1;
+  /* gör att beskrivningen fyller utrymme utan att korten blir ojämna */
 }
 
 .tag {
@@ -168,31 +166,40 @@ body {
 /* BUTTONS */
 .project-buttons {
   display: flex;
-  flex-direction: column;
-  /* COLUMN */
-  width: 100%;
   gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.btn-live {
-  background: #47b88e;
-  color: white;
+.project-buttons a {
+  flex: 1;
+  /* gör att båda knapparna får samma bredd */
+  min-width: 120px;
+  /* säkerställer att knapparna inte blir för små */
   text-align: center;
   padding: 10px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
+  box-sizing: border-box;
+}
+
+.btn-live {
+  background: #47b88e;
+  color: white;
 }
 
 .btn-code {
   background: white;
   border: 2px solid #47b88e;
   color: #47b88e;
-  text-align: center;
-  padding: 10px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
+}
+
+/* Hover-effekt för knappar */
+.project-buttons a:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
 }
 
 /* FEATURED PROJECTS */
@@ -204,8 +211,8 @@ body {
 .featured-wrapper h2,
 .projects h2 {
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .featured-scroll {
@@ -252,14 +259,22 @@ body {
 }
 
 @media (min-width: 1024px) {
-
   .projects .grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
   .featured-card {
-    flex: 0 0 450px;
+    flex: 0 0 410px;
+
   }
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid #47b88e;
+  margin: 60px auto;
+  margin-bottom: 50px;
+  width: 500px;
 }
 
 .contact {
@@ -269,6 +284,7 @@ body {
   justify-content: center;
   text-align: center;
   gap: 16px;
+  padding: 40px;
 }
 
 .contact p.linkedIn {
