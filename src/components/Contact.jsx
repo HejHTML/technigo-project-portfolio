@@ -3,8 +3,16 @@ export const Contact = () => {
         <section className="contact">
             <h2>Let's talk</h2>
             <p>Email: emmasmejladress@gmail.com</p>
-            <p>LinkedIn: <a href="linkedin.com/in/emma-franzén-90874346">linkedin.com/in/emma-franzén-90874346</a>
+            <p>
+                LinkedIn:{" "}
+                <a
+                    href="https://www.linkedin.com/in/emma-franz%C3%A9n-90874346/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    emma.franzen
+                </a>
             </p>
-        </section >
+        </section>
     );
 };

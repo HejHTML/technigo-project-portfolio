@@ -12,7 +12,19 @@ export const ProjectCard = ({ project }) => {
                     <span key={tag} className="tag">{tag}</span>
                 ))}
             </div>
-
+            {/* Tools */}
+            {project.tools && (
+                <div className="project-tools">
+                    {" "}
+                    {project.tools.map(tool => (
+                        <span key={tool} className="tag">{tool}</span>
+                    ))}
+                </div>
+            )}
+            {/* Description */}
+            {project.description && (
+                <p className="project-description">{project.description}</p>
+            )}
             <div className="project-buttons">
                 <a href={project.netlify} className="btn btn-live" target="_blank" rel="noopener noreferrer">
                     Live demo

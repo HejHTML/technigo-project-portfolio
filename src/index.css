@@ -134,6 +134,18 @@ body {
   justify-content: center;
 }
 
+.project-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.project-description {
+  text-align: center;
+  line-height: 1.5;
+}
+
 .tag {
   background: #eee;
   padding: 4px 8px;

@@ -7,6 +7,12 @@
         "HTML5",
         "CSS3"
       ],
+      "description": "A responsive news website built with HTML and CSS, showcasing articles, images, and layout design for readability.",
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
+      ],
       "netlify": "https://lucky-beijinho-e620c2.netlify.app/",
       "github": "https://github.com/HejHTML/technigo-project-news-site.git"
     },
@@ -16,6 +22,12 @@
       "tags": [
         "HTML5",
         "CSS3"
+      ],
+      "description": "A professional business site designed with HTML and CSS, focusing on clean layout, navigation, and responsive design.",
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
       ],
       "netlify": "https://halsosammakurs.netlify.app/",
       "github": "https://github.com/HejHTML/technigo-project-business-site.git"
@@ -28,6 +40,17 @@
         "CSS3",
         "JavaScript"
       ],
+      "description": "An interactive pizza ordering bot built with JavaScript, allowing users to choose toppings, size, and view a summary.",
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
+      ],
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
+      ],
       "netlify": "https://emmaspizzeria.netlify.app/",
       "github": "https://github.com/HejHTML/technigo-project-pizzabot.git"
     },
@@ -38,6 +61,12 @@
         "HTML5",
         "CSS3",
         "JavaScript"
+      ],
+      "description": "A digital library project for managing books and authors, featuring search functionality, JavaScript interactivity, and responsive layout.",
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
       ],
       "netlify": "https://boktipset.netlify.app/",
       "github": "https://github.com/HejHTML/technigo-project-library.git"
@@ -50,6 +79,14 @@
         "CSS3",
         "JavaScript",
         "APIs"
+      ],
+      "description": [
+        "A weather app that fetches data from OpenWeather API and displays current weather conditions."
+      ],
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
       ],
       "netlify": "https://swinginintherain.netlify.app/",
       "github": "https://github.com/HejHTML/technigo-project-weather-app.git"
