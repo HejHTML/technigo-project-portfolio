@@ -3,7 +3,7 @@ import { Divider } from "./Divider";
 export const Skills = () => {
     return (
         <section className="skills">
-            <h2>My Skills</h2>
+            <h2>Skills</h2>
 
             {/* First list */}
             <ul>
