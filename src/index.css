@@ -21,7 +21,9 @@ body {
 .hero-intro {
   font-size: 20px;
   line-height: 1.5;
-  margin: 15px 0;
+  margin: 15px auto;
+  max-width: 800px;
+  text-align: center;
 }
 
 .hero-img {
@@ -60,12 +62,12 @@ body {
 
 /* SKILLS */
 .skills {
-  padding: 30px 20px;
+  padding: 20px;
   text-align: center;
 }
 
 .skills h2 {
-  font-size: 32px;
+  font-size: 38px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -84,7 +86,7 @@ body {
   padding: 4px 0;
   background: none;
   border-radius: 0;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 /* DIVIDER */
@@ -103,17 +105,16 @@ body {
   gap: 12px;
   padding: 20px;
   width: 100%;
-  /* ✔ Tar upp gridcellens plats */
   max-width: 380px;
-  /* ✔ Valfritt, ser bättre ut */
   margin: 0 auto;
 }
 
 /* IMAGE */
 .project-image {
   width: 100%;
-  border-radius: 12px;
+  height: 300px;
   object-fit: cover;
+  border-radius: 12px;
 }
 
 /* TITLE */
@@ -173,8 +174,10 @@ body {
   overflow: hidden;
 }
 
-.featured-wrapper h2 {
+.featured-wrapper h2,
+.projects h2 {
   text-align: center;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
