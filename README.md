@@ -1,24 +1,25 @@
 # Portfolio
 
-Replace this readme with your own information about the project. You can include things like:
+Project Description
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
-- How to run the project locally
+This is my portfolio website, built with React to showcase my web development projects. The goal of the project was to create a clean, responsive, and user-friendly portfolio to highlight my skills, projects, and contact information. And follow a design in Figma.
+
+Site:
+- Hero section with introduction and profile picture
+- Skills section showcasing technologies and tools I know
+- Featured Projects highlighting my most relevant projects
+- All Projects displaying all projects with details like tags, tools, and descriptions
+-Contact section with email and LinkedIn links.
+
+Added project data in data.json including name, image, tags, tools, description, GitHub, and Netlify links.
+Styled the site with CSS for a consistent design across all screen sizes
+Tested locally with npm start and deployed to Netlify. Hade a bit of trouble before learning how to show the site propberly with Netlify - all images was hidden in the beginning. Then I found out my src only worked locally. Now it's working in Netlify too.
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://hejemma.netlify.app/
 
 
-## Getting Started with the Project
+How to Run the Project Locally
 
-### Dependency Installation & Startup Development Server
-
-Once cloned, navigate to the project's root directory and this project uses npm (Node Package Manager) to manage its dependencies.
-
-The command below is a combination of installing dependencies, opening up the project on VS Code and it will run a development server on your terminal.
-
-```bash
-npm i && code . && npm run dev
-```
+Clone the repository, navigate into the project folder, and install dependencies with npm install. Start the development server with npm start, then open http://localhost:3000
+ in your browser to view the portfolio.
