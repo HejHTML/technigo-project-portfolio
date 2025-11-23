@@ -166,7 +166,6 @@ body {
   text-align: center;
   line-height: 1.5;
   flex-grow: 1;
-  /* gör att beskrivningen fyller utrymme utan att korten blir ojämna */
 }
 
 .tag {
@@ -256,6 +255,37 @@ body {
   display: grid;
   gap: 20px;
   padding: 20px;
+}
+
+.contact {
+  padding: 20px;
+}
+
+.contact p.linkedIn {
+  display: flex;
+  color: #1a6247;
+  align-items: center;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.contact p.linkedIn a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.contact p.linkedIn a img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.contact p.linkedIn a:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
 }
 
 @media (min-width: 700px) {
