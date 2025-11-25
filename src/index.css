@@ -240,7 +240,7 @@ body {
 
 .featured-card {
   scroll-snap-align: start;
-  flex: 0 0 70%;
+  flex: 0 0 92%;
 }
 
 .featured-card .project-image {
