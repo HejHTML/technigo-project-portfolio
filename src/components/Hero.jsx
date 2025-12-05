@@ -4,21 +4,21 @@ export const Hero = () => {
     return (
         <section className="hero">
             <div className="hero-text">
-                <h1>I am Emma Franzén</h1>
+                <h1>Jag är Emma Franzén</h1>
                 <p className="work-title">Frontend Developer</p>
 
                 <p className="hero-intro">
-                    Hi, my name is Emma, and I am studying web development. Currently, I am building this website as my personal portfolio to showcase the projects I have been working on.
+                    Hej! Jag heter Emma och jag studerar webbutveckling hos Technigo. Just nu bygger jag den här webbplatsen som min personliga portfolio för att visa upp de projekt jag har arbetar med.
                 </p>
-                <p className="hero-intro">I am a trained behavioral scientist and folk high school teacher with a focus on public health and pedagogy and I love learning new things, whether it's lindy hop, playing the piano or learning to code. My motto is: ‘If you don’t do anything, nothing will happen.’
-                </p>
-
-                <p className="hero-intro">
-                    On this site, you’ll find a variety of projects I have created, ranging from responsive websites built with HTML and CSS to interactive applications using JavaScript and APIs.
+                <p className="hero-intro">Jag är utbildad beteendevetare och folkhögskollärare med inriktning mot folkhälsa och pedagogik, och jag älskar att lära mig nya saker — oavsett om det handlar om lindy hop, att spela piano eller att lära mig programmering. Mitt motto är: ”Om du inte gör något, händer inget heller.”
                 </p>
 
                 <p className="hero-intro">
-                    I hope this portfolio gives you an idea of my work, my approach to web development, and the progress I have made so far. Feel free to explore the projects, check out the live demos, and view the code on GitHub for a deeper look at how I built them.
+                    På den här sidan hittar du en mängd olika projekt jag har skapat, allt från responsiva webbplatser byggda med HTML och CSS till interaktiva applikationer med JavaScript, TypeScript och React.
+                </p>
+
+                <p className="hero-intro">
+                    Jag hoppas att min portfolio ger dig en bra bild av mitt arbete, mitt sätt att närma mig webbutveckling och den utveckling jag har gjort hittills. Kolla in projekten, testa live-demoversionerna och kika på koden på GitHub för en djupare inblick i hur jag har byggt dem. Välkommen!
                 </p>
             </div>
 

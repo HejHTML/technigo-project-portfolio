@@ -11,7 +11,7 @@ export const Skills = () => {
                 <li>CSS3</li>
                 <li>JavaScript</li>
                 <li>React</li>
-                <li>APIs</li>
+
             </ul>
 
             {/* Second list */}
@@ -19,7 +19,7 @@ export const Skills = () => {
 
             {/* Andra listan */}
             <ul>
-                <li>React</li>
+                <li>APIs</li>
                 <li>Git</li>
                 <li>Node.js</li>
             </ul>

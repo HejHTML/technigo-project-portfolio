@@ -95,7 +95,47 @@
       "github": "https://github.com/HejHTML/technigo-project-weather-app.git"
     },
     {
-      "name": "Games",
+      "name": "Filmquiz",
+      "image": "movie.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "APIs"
+      ],
+      "description": [
+        "Movie quiz based on trivia API"
+      ],
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
+      ],
+      "netlify": "https://fiffigfilm.netlify.app/spel",
+      "github": ""
+    },
+    {
+      "name": "Gissa kyrkan!",
+      "image": "kyrkle.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "APIs"
+      ],
+      "description": [
+        "A Church quiz based on Wikipedia"
+      ],
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
+      ],
+      "netlify": "https://kyrkle.netlify.app/spel",
+      "github": ""
+    },
+    {
+      "name": "Old portfolio",
       "image": "games.png",
       "tags": [
         "HTML5",
@@ -104,14 +144,14 @@
         "APIs"
       ],
       "description": [
-        "A collection of small games I've created for fun and practice."
+        "Wanted to meet the colors of helgon.net again! Inspired by a community from around 2005."
       ],
       "tools": [
         "VSCode",
         "GitHub",
         "Netlify"
       ],
-      "netlify": "https://emmafranzen.netlify.app/spel",
+      "netlify": "https://emmafranzen.netlify.app/",
       "github": ""
     }
   ]
