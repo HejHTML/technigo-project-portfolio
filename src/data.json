@@ -94,6 +94,26 @@
       "netlify": "https://swinginintherain.netlify.app/",
       "github": "https://github.com/HejHTML/technigo-project-weather-app.git"
     },
+            {
+      "name": "React survey",
+      "image": "",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React"
+      ],
+      "description": [
+        "React state och controlled forms in a survey"
+      ],
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
+      ],
+      "netlify": "https://quizzyquizzz.netlify.app/",
+      "github": "https://github.com/HejHTML/technigo-project-quiz.git"
+    },
     {
       "name": "Filmquiz",
       "image": "movie.png",
