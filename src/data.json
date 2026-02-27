@@ -115,6 +115,27 @@
       "github": "https://github.com/HejHTML/technigo-project-quiz.git"
     },
     {
+      "name": "Todo app",
+      "image": "todo.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "Zustand"
+      ],
+      "description": [
+        "An app for managing tasks and organizing daily activities using React and Zustand for state management."
+      ],
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
+      ],
+      "netlify": "https://technigotodo.netlify.app/",
+      "github": "https://github.com/HejHTML/technigo-project-todos.git"
+    },
+    {
       "name": "Filmquiz",
       "image": "movie.png",
       "tags": [
