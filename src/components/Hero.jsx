@@ -8,9 +8,9 @@ export const Hero = () => {
                 <p className="work-title">Frontend Developer</p>
 
                 <p className="hero-intro">
-                    Hej! Jag heter Emma och jag studerar webbutveckling hos Technigo. Just nu bygger jag den här webbplatsen som min personliga portfolio för att visa upp de projekt jag har arbetar med.
+                    Tjabba! Emma här. Jag studerar webbutveckling hos Technigo sedan hösten 2025. Den här webbplatsen är min portfolio där jag visar upp de projekt jag har arbetat med under kursen.
                 </p>
-                <p className="hero-intro">Jag är utbildad beteendevetare och folkhögskollärare med inriktning mot folkhälsa och pedagogik, och jag älskar att lära mig nya saker — oavsett om det handlar om lindy hop, att spela piano eller att lära mig programmering. Mitt motto är: ”Om du inte gör något, händer inget heller.”
+                <p className="hero-intro">Tidigare har jag arbetat som folkhögskollärare, mentor och hälsopedagog. Jag kan lite om mycket och har aldrig slutat plugga nya saker under tiden som jag jobbat. Dialekter och ortnamn, religionsfilosofi, brukspiano och musikteater är några små stickspår som givit mig nya insikter. Lindy hop och improvisationsteater har följt med mig länge.
                 </p>
 
                 <p className="hero-intro">
@@ -18,7 +18,7 @@ export const Hero = () => {
                 </p>
 
                 <p className="hero-intro">
-                    Jag hoppas att min portfolio ger dig en bra bild av mitt arbete, mitt sätt att närma mig webbutveckling och den utveckling jag har gjort hittills. Kolla in projekten, testa live-demoversionerna och kika på koden på GitHub för en djupare inblick i hur jag har byggt dem. Välkommen!
+                    Kolla in projekten, testa live-demoversionerna och kika på koden på GitHub för en inblick i hur jag har byggt dem. Välkommen!
                 </p>
             </div>
 
