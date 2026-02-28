@@ -14,7 +14,7 @@ export const Hero = () => {
                 </p>
 
                 <p className="hero-intro">
-                    På den här sidan hittar du en mängd olika projekt jag har skapat, allt från responsiva webbplatser byggda med HTML och CSS till interaktiva applikationer med JavaScript, TypeScript och React.
+                    På den här sidan hittar du allt från responsiva webbplatser byggda med HTML och CSS till interaktiva applikationer med JavaScript, TypeScript och React. Jag startar sista sprinten nu och ska lägga till Node.js i verktygslådan. I juni blir jag färdig med kursen.
                 </p>
 
                 <p className="hero-intro">
