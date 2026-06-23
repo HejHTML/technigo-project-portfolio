@@ -145,7 +145,27 @@
         "React"
       ],
       "description": [
-        "An app for managing tasks and organizing daily activities using React and Zustand for state management."
+        "Netflix-like site built with React, fetching data from the Movie Database API to display popular movies and details."
+      ],
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
+      ],
+      "netlify": "https://efmovie.netlify.app/",
+      "github": "https://github.com/HejHTML/technigo-project-movies.git"
+    },
+    {
+      "name": "Happy thoughts",
+      "image": "happythoughts.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React"
+      ],
+      "description": [
+        "A social media app for sharing positive thoughts and experiences."
       ],
       "tools": [
         "VSCode",
