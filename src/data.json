@@ -136,6 +136,26 @@
       "github": "https://github.com/HejHTML/technigo-project-todos.git"
     },
     {
+      "name": "Movie site",
+      "image": "",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React"
+      ],
+      "description": [
+        "An app for managing tasks and organizing daily activities using React and Zustand for state management."
+      ],
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify"
+      ],
+      "netlify": "https://efmovie.netlify.app/",
+      "github": "https://github.com/HejHTML/technigo-project-movies.git"
+    },
+    {
       "name": "Filmquiz",
       "image": "movie.png",
       "tags": [
