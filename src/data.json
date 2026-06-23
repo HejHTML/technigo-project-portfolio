@@ -239,26 +239,6 @@
       ],
       "netlify": "https://kyrkle.netlify.app/",
       "github": ""
-    },
-    {
-      "name": "Old portfolio",
-      "image": "games.png",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "APIs"
-      ],
-      "description": [
-        "Wanted to meet the colors of helgon.net again! Inspired by a community from around 2005."
-      ],
-      "tools": [
-        "VSCode",
-        "GitHub",
-        "Netlify"
-      ],
-      "netlify": "https://emmafranzen.netlify.app/",
-      "github": ""
     }
   ]
 }
