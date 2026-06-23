@@ -182,10 +182,10 @@
         "HTML5",
         "CSS3",
         "JavaScript",
-        "API",
         "React",
         "Node.js",
-        "Express"
+        "Express",
+        "MongoDB"
       ],
       "description": [
         "Quiz based on basic knowledge of cybersecurity and best practices."
