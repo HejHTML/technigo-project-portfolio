@@ -176,6 +176,31 @@
       "github": "https://github.com/HejHTML/technigo-project-happy-thoughts.git"
     },
     {
+      "name": "Cybersecurity quiz",
+      "image": "cybersecurity.png",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "API",
+        "React",
+        "Node.js",
+        "Express"
+      ],
+      "description": [
+        "Quiz based on basic knowledge of cybersecurity and best practices."
+      ],
+      "tools": [
+        "VSCode",
+        "GitHub",
+        "Netlify",
+        "Render",
+        "MongoDB Atlas"
+      ],
+      "netlify": " https://cyberwisetest.netlify.app",
+      "github": "https://github.com/HejHTML/technigo-project-final.git"
+    },
+    {
       "name": "Filmquiz",
       "image": "movie.png",
       "tags": [
